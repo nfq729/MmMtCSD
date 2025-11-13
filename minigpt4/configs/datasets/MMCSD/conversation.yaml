@@ -1,0 +1,7 @@
+datasets:
+  stance_detection_conversation:
+    data_type: images
+    build_info:
+      image_path: ./mm-mtcsd/Bitcoin/image
+      ann_path: ./mm-mtcsd/Bitcoin/train_answer.json
+      target: Bitcoin
