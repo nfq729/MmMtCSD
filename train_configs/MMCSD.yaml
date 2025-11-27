@@ -5,10 +5,10 @@ model:
   image_size: 448
   end_sym: "</s>"
   llama_model: "./Llama-2-7b-chat-hf"
-  ckpt: ""
+  ckpt: "" # pretrained_minigpt4_llama2_7b
   use_grad_checkpoint: True
   chat_template: True
-  lora_r: 64
+  lora_r: 8
   lora_alpha: 16
 
 datasets:
